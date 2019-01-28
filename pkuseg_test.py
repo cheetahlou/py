@@ -1,4 +1,6 @@
-# 引入 pkuseg
+# 引入 pkuseg 北大开源分词工具包
+# 结果 ['改革', '春风', '吹满', '地']['我', '就是', '这', '条', '街上', '最', '靓', '的', '仔']
+
 import pkuseg as ps
 seg = ps.pkuseg()
 text = seg.cut("改革春风吹满地")
